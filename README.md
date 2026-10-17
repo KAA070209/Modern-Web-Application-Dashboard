@@ -6,6 +6,19 @@ Aplikasi dashboard **modern** dan **responsif** yang dibangun dengan praktik pen
 
 ---
 
+## Ringkasan Proyek
+
+| Item | Keterangan |
+| --- | --- |
+| **Program** | Internship Project — Auspify Technologies |
+| **Peserta** | Muhammad Azka Sa'adi Nabhan |
+| **Posisi** | Frontend Development Intern |
+| **Kategori** | Task 6 (Advanced) — Modern Web Application Dashboard |
+| **Demo** | https://web.azkadev.my.id |
+| **Repositori** | https://github.com/KAA070209/Modern-Web-Application-Dashboard |
+
+---
+
 ## Fitur
 
 | Fitur | Deskripsi |
@@ -86,6 +99,14 @@ npm run build
 npm run preview
 ```
 
+### Skrip yang Tersedia
+
+| Perintah | Deskripsi |
+| --- | --- |
+| `npm run dev` | Menjalankan Vite development server dengan HMR (buka http://localhost:5173). |
+| `npm run build` | Membangun bundel produksi ke folder `dist/`. |
+| `npm run preview` | Menjalankan pratinjau hasil build produksi. |
+
 ---
 
 ## Struktur Folder
@@ -100,7 +121,7 @@ nexora-dashboard/
 │   │   ├── layout/                # Sidebar, Navbar, DashboardLayout
 │   │   ├── dashboard/             # StatCard, RevenueChart, RecentActivity, UserDistribution
 │   │   └── ui/                    # Button, Card, Badge, DataTable, Skeleton, PageHeader, Modal, Dropdown
-│   ├── context/                   # ThemeContext, ToastContext
+│   ├── context/                   # ThemeContext, ToastContext, ProfileContext
 │   ├── data/                      # dashboardData.js (sumber data dummy)
 │   ├── hooks/                     # useDashboardData.js (fetch + fallback + add/remove)
 │   ├── layouts/                   # re-export layout aplikasi
